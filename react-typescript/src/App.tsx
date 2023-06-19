@@ -1,6 +1,10 @@
 // import React from 'react';
 // import Counter from "./Counter";
-import Form from "./Form";
+// import Form from "./Form";
+// import Typing from "./Typing"
+// import MyComponentPortal from "./Portal";
+
+import Context from "./Context";
 
 // функциональный компонент
 
@@ -14,9 +18,10 @@ import Form from "./Form";
 // const App = () => <Title title='test'/>
 
 
-// Классовый компонент
-
 
 // const App = () => <Counter/>
-const App = () => <Form/>
+// const App = () => <Form/>
+// const App = () => <Typing/>
+// const App = () => <MyComponentPortal/>
+const App = () => <Context/>
 export default App;
