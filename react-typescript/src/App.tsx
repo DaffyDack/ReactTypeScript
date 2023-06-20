@@ -3,8 +3,7 @@
 // import Form from "./Form";
 // import Typing from "./Typing"
 // import MyComponentPortal from "./Portal";
-
-import Context from "./Context";
+// import ToogleButton from "./HOCs";
 
 // функциональный компонент
 
@@ -23,5 +22,21 @@ import Context from "./Context";
 // const App = () => <Form/>
 // const App = () => <Typing/>
 // const App = () => <MyComponentPortal/>
-const App = () => <Context/>
+// const App = () => <Context/>
+// const App = () => ToogleButton
+
+
+import React from 'react';
+
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
+
+const App: React.FC = ({ children }) => (
+    <>
+        <Header />
+        {children}
+        <Footer />
+    </>
+);
+
 export default App;
